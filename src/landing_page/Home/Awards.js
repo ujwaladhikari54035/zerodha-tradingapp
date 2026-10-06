@@ -2,7 +2,7 @@ import React from "react";
 
 function Awards() {
   return (
-    <div className = "flex flex-row justify-between items-center text-center mt-10 mb-10 mx-30">
+    <div className = "flex flex-row justify-between items-center text-center mt-10 mb-20 mx-30">
       <div>
         <img src = "media/images/largestBroker.svg" alt = "largestBroker"/>
 
