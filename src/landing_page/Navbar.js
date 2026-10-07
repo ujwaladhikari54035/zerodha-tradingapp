@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
@@ -10,19 +11,19 @@ function Navbar() {
       <div className = "mx-50 mt-3">
         <ul className = "flex flex-row gap-10">
           <li>
-            <a className = "text-black" style = {{ textDecoration: 'none'}} href = "#">Signup</a>
+            <Link className = "text-black" style = {{ textDecoration: 'none'}} to = "/signup">Signup</Link>
           </li>
           <li>
-            <a className = "text-black " style = {{ textDecoration: 'none'}} href = "#">About</a>
+            <Link className = "text-black " style = {{ textDecoration: 'none'}} to = "/about">About</Link>
           </li>
           <li>
-            <a className = "text-black" style = {{ textDecoration: 'none'}} href = "#">Products</a>
+            <Link className = "text-black" style = {{ textDecoration: 'none'}} to = "/product">Product</Link>
           </li>
           <li>
-            <a className = "text-black " style = {{ textDecoration: 'none'}} href = "#">Support</a>
+            <Link className = "text-black " style = {{ textDecoration: 'none'}} to = "/support">Support</Link>
           </li>
           <li>
-            <a className = "text-black " style = {{ textDecoration: 'none'}} href = "#"><i class="fa-solid fa-bars"></i></a>
+            <Link className = "text-black " style = {{ textDecoration: 'none'}} href = "#"><i class="fa-solid fa-bars"></i></Link>
           </li>
 
         </ul>
